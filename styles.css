@@ -1,0 +1,104 @@
+
+#first {
+    
+    
+
+.test {
+    
+    width: 100vw;
+}
+
+.bigbend {
+      /* The image used */
+  background-image: url("./images/bigbend2.jpg");
+  background-color: A7D7C5;
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  color: F9F8EB;
+
+}
+
+
+
+.bigbend-text{
+    
+    font-size: 10rem;
+    color: #F9F8EB;
+    font-weight: 500;
+    text-align: right;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: -3px;
+    line-height: 125px;
+    margin-right: 30px;
+    margin-top: 10px
+    
+    
+}
+
+.secondary {
+    
+    font-size: 4rem;
+    color: #F9F8EB;
+    font-weight: 500;
+    text-align: right;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0px;
+    line-height: 125px;
+    text-align: left;
+    align-self: flex-end;
+    padding: 100px;
+    
+
+   
+}
+
+.nav-custom {
+
+    background-color: #5C8D89;
+}
+
+#navbarsExample04 {
+    background-color: #5C8D89;
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 770px){
+
+    .bigbend-text {
+        font-size: 6rem;
+        line-height: 75px;
+        margin-right: 0px;
+        margin-bottom: 0;
+
+    }
+
+    .mobile{
+        
+     
+        display:contents;
+        font-size: 3rem;
+        line-height: 20px;
+        letter-spacing: -1px;
+    }
+
+    .secondary {
+        display:none;
+        
+
+    }
+
+}
