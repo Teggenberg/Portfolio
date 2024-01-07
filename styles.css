@@ -1,7 +1,5 @@
 
-#first{
-    
-}
+
 .test {
     
     width: 100vw;
@@ -61,7 +59,9 @@
 
    
 }
-
+ .icon {
+    width: 35px;
+ }
 .nav-custom {
 
     background-color: #5C8D89;
@@ -99,5 +99,9 @@
         
 
     }
+
+    .icon {
+        width: 70px;
+     }
 
 }
