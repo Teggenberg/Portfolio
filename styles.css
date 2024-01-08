@@ -1,7 +1,7 @@
 
  html {
     background-color: #A7D7C5;
- }
+}
 
 .bigbend {
 
@@ -23,7 +23,7 @@
     color: #F9F8EB;
     font-size: 5rem;
     font-family: 'Bebas Neue', sans-serif;
-    letter-spacing: 5px;
+    letter-spacing: 25px;
     line-height: 125px;
 
 }
@@ -76,26 +76,39 @@
     margin-bottom: 200px;
 }
 
- .icon {
-    width: 35px;
- }
 
- .logo-section {
+.icon {
+    width: 35px;
+}
+
+.logo-section {
     background-color: #A7D7C5;
     margin: 0;
     padding: 10px;
- }
+}
 
- .logos {
-    height: 70px;
+.logos {
+    height: 63px;
     border-radius: 20px;
- }
+}
 
- .rowml {
+.logos-small {
+    height: 80px;
+    border-radius: 20px;
+}
+
+.lang {
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+.rowml {
 
     padding-left: 0%;
 
- }
+}
 .nav-custom {
 
     background-color: #5C8D89;
@@ -183,6 +196,12 @@
         margin-top: 40px;
 
     }
+
+    .tech-banner {
+        font-size: 3rem;
+    }
+
+    
 
     .mobile {
         border: 1px solid white;
