@@ -1,19 +1,13 @@
 
-
-.test {
-    
-    width: 100vw;
-}
+ html {
+    background-color: #A7D7C5;
+ }
 
 .bigbend {
-      /* The image used */
+
   background-image: url("./images/bigbend2.jpg");
   background-color: A7D7C5;
-
-  /* Full height */
   height: 70vh;
-
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -69,10 +63,28 @@
     text-align: left;
     text-indent: 6rem;
     line-height: 1.2;
+    margin-bottom: 200px;
 }
 
  .icon {
     width: 35px;
+ }
+
+ .logo-section {
+    background-color: #A7D7C5;
+    margin: 0;
+    padding: 10px;
+ }
+
+ .logos {
+    height: 70px;
+    border-radius: 20px;
+ }
+
+ .rowml {
+
+    padding-left: 0%;
+
  }
 .nav-custom {
 
@@ -138,7 +150,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
+  margin-bottom: 0;
   
 }
 
