@@ -186,6 +186,13 @@
         display: none;
     }
 
+    .logos {
+
+        height: 40px;
+        border-radius: 12px;
+
+    }
+
     .fsd {
         display:contents;
         
