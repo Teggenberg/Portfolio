@@ -201,4 +201,12 @@
         width: 85px;
      }
 
+     .profile-img{
+    
+        height: 450px;
+        border: 35px solid #F9F8EB;
+        border-radius: 225px;
+        float: left;
+    }
+
 }
