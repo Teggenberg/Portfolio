@@ -201,6 +201,14 @@
         font-size: 3rem;
     }
 
+    .logos {
+        height: 55px;
+    }
+
+    .logos-small {
+        height: 65px;
+    }
+
     
 
     .mobile {
@@ -245,9 +253,9 @@
 
     .icon {
         width: 85px;
-     }
+    }
 
-     .profile-img{
+    .profile-img{
     
         height: 450px;
         border: 35px solid #F9F8EB;
