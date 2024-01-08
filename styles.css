@@ -59,6 +59,18 @@
 
    
 }
+
+.bio {
+    
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.7rem;
+    color: #F9F8EB;
+    text-align: left;
+    text-indent: 6rem;
+    line-height: 1.2;
+}
+
  .icon {
     width: 35px;
  }
@@ -103,6 +115,7 @@
     height: 300px;
     border: 25px solid #F9F8EB;
     border-radius: 150px;
+    float: left;
 }
 
 .prof {
@@ -125,9 +138,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
+  
   
 }
 
@@ -171,6 +182,11 @@
         color: #F9F8EB;
         letter-spacing: 4.5px;
         line-height: 0;
+    }
+
+    .bio {
+        font-size: 2rem;
+        padding: 10px;
     }
 
     
