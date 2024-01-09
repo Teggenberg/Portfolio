@@ -78,7 +78,9 @@
 
 
 .icon {
-    width: 35px;
+    border:5px solid #F9F8EB;
+    border-radius: 10px;
+    width: 50px;
 }
 
 .logo-section {
@@ -182,8 +184,10 @@
 }
 
 .footer {
+    font-family: 'Montserrat', sans-serif;
     margin-top: 100px;
-    height: 150px;
+    
+    padding-bottom: 10px;
     background-color: #5C8D89;
     text-align: center;
 }
@@ -211,6 +215,7 @@
     }
 
     .tech-banner {
+        padding-left: 7%;
         font-size: 3rem;
     }
 
@@ -276,6 +281,16 @@
         border: 35px solid #F9F8EB;
         border-radius: 225px;
         float: left;
+    }
+
+    .social {
+        
+        width:100px;
+        height: 100px;
+    }
+
+    .footer {
+        padding-top: 50px;
     }
 
 }
