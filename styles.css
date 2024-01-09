@@ -181,6 +181,19 @@
     display: none;
 }
 
+.footer {
+    margin-top: 100px;
+    height: 150px;
+    background-color: #5C8D89;
+    text-align: center;
+}
+
+.social {
+     padding-top: 20px;
+     height: 70px; 
+     filter: brightness(0); 
+}
+
 @media (max-width: 1200px){
 
     .bigbend {
@@ -208,6 +221,8 @@
     .logos-small {
         height: 65px;
     }
+
+   
 
     
 
