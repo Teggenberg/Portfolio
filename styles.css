@@ -183,6 +183,33 @@
     display: none;
 }
 
+.resume-btn:hover {
+    color:#A7D7C5;
+    background-color:#5C8D89;
+    transition: 0.7s;
+    
+    
+}
+
+.resume-btn {
+    width: 35vw;
+    border: 2px solid #F9F8EB;
+    border-radius: 10px;
+    background-color: #74B49B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #F9F8EB;
+
+}
+
+.resume-pdf {
+    height: 50px;
+    padding-right: 10px;
+    filter: invert(100%); 
+    color:  #F9F8EB;
+    padding-bottom: 3px;
+}
+
 .footer {
     font-family: 'Montserrat', sans-serif;
     margin-top: 100px;
@@ -197,6 +224,7 @@
      height: 70px; 
      filter: brightness(0); 
 }
+
 
 @media (max-width: 1200px){
 
