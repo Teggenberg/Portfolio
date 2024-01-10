@@ -1,0 +1,70 @@
+html {
+    background-color: #A7D7C5;
+}
+
+.card{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.7rem;
+    color: #74B49B;
+    
+
+}
+.card h2 {
+    padding-top: 10px;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.card-row{
+    
+    background-color: #A7D7C5;
+    
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: cneter;
+    align-items: center;
+    border: 5px solid #5C8D89;
+    border-radius: 20px;
+    width: 40vw;
+    background-color: #F9F8EB;
+}
+
+.project-img {
+    margin-top: 8px;
+    height: 440px;
+    border-radius: 10px;
+}
+
+.download-btn:hover {
+    color:#A7D7C5;
+    background-color:#5C8D89;
+    transition: 0.7s;
+    
+    
+}
+
+.download-btn {
+    width: 440px;
+    border: 2px solid #F9F8EB;
+    border-radius: 10px;
+    background-color: #74B49B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #F9F8EB;
+    margin: 10px;
+
+}
+
+.download-logo {
+    height: 30px;
+    filter: brightness(0) invert(1);
+    
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
