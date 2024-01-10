@@ -21,6 +21,8 @@ html {
 .card-row{
     
     background-color: #A7D7C5;
+    display: flex;
+    justify-content: center;
     
 }
 
@@ -50,7 +52,7 @@ html {
 }
 
 .download-btn {
-    width: 440px;
+    width: auto;
     border: 2px solid #F9F8EB;
     border-radius: 10px;
     background-color: #74B49B;
@@ -67,4 +69,41 @@ html {
     
     margin-right: 15px;
     margin-bottom: 5px;
+}
+
+.desc {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: cneter;
+    align-items: center;
+    border: 3px solid #74B49B;
+    border-radius: 20px;;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #5C8D89;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+.desc-text {
+
+}
+
+.border {
+    border: 10px solid black;
+}
+
+@media (max-width: 1200px){
+
+    .project-card{
+        width: 75vw;
+        margin-top: 20px;
+    }
+
+
+
 }
