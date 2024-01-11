@@ -1,0 +1,74 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Lab3/1.0.0": {
+        "dependencies": {
+          "BlackjackClassLibrary": "1.0.0",
+          "FullSailCasino": "1.0.0",
+          "LectureCode": "1.0.0"
+        },
+        "runtime": {
+          "Lab3.dll": {}
+        }
+      },
+      "BlackjackClassLibrary/1.0.0": {
+        "dependencies": {
+          "PG2Input": "1.0.0"
+        },
+        "runtime": {
+          "BlackjackClassLibrary.dll": {}
+        }
+      },
+      "FullSailCasino/1.0.0": {
+        "dependencies": {
+          "BlackjackClassLibrary": "1.0.0"
+        },
+        "runtime": {
+          "FullSailCasino.dll": {}
+        }
+      },
+      "LectureCode/1.0.0": {
+        "runtime": {
+          "LectureCode.dll": {}
+        }
+      },
+      "PG2Input/1.0.0": {
+        "runtime": {
+          "PG2Input.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lab3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BlackjackClassLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FullSailCasino/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LectureCode/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PG2Input/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
