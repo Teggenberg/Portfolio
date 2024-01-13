@@ -9,7 +9,7 @@ html {
 .card{
 
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     color: #74B49B;
     
 
@@ -21,6 +21,12 @@ html {
     font-weight: 600;
 
 }
+
+.card h3 {
+    font-size: 1.5rem;
+}
+
+
 
 .card-row{
     
@@ -43,7 +49,7 @@ html {
 
 .project-img {
     margin-top: 8px;
-    height: 440px;
+    width: 400px;
     border-radius: 10px;
 }
 
@@ -123,6 +129,36 @@ html {
         margin-top: 20px;
     }
 
+    .project-img {
+        margin-top: 8px;
+        width: 600px;
+        border-radius: 10px;
+    }
+
 
 
 }
+
+@media (max-width: 850px){
+
+    .project-img {
+        margin-top: 8px;
+        width: 400px;
+        border-radius: 10px;
+    }
+
+}
+
+
+@media (max-width: 570px){
+
+    .project-img {
+        margin-top: 8px;
+        width: 300px;
+        border-radius: 10px;
+    }
+
+}
+
+
+    
