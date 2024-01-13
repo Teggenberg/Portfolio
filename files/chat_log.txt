@@ -1,0 +1,4 @@
+Server Initailized.
+$register Tim_Eggenberger
+Tim_Eggenberger has joined the server.
+Tim_Eggenberger: Hello World
